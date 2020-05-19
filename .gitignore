@@ -1,0 +1,156 @@
+# 编译生成的文件
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+
+# 编译目录
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# 依赖库目录
+vendor/
+deps/
+lib/
+
+# IDE 生成的文件
+# Visual Studio
+*.suo
+*.ncb
+*.sln.docstates
+*.user
+*.userosscache
+*.vcxproj.filters
+*.opensdf
+*.sdf
+*.VC.db
+ipch/
+*.aps
+*.aps.bin
+*.vspscc
+*.vssscc
+*.vsuo
+*.vsixexp
+*.scc
+
+# Xcode
+*.mode1v3
+*.mode2v3
+*.mode1
+*.mode2
+*.pbxuser
+*.perspectivev3
+*.perspectivev4
+*.perspective
+*.xcuserdatad
+*.xcworkspace
+xcuserdata/
+
+# CLion
+*.idea/
+out/
+
+# Eclipse
+.settings/
+.metadata/
+.project
+.cproject
+.classpath
+
+# Qt Creator
+*.user
+*.pro.user
+
+# 编译器生成的文件
+*.gch
+*.log
+*.la
+*.lo
+*.lai
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# 版本控制系统生成的文件
+.git/
+.gitmodules
+.gitattributes
+
+# 其他
+*.log
+*.tmp
+*.swp
+*.bak
+
+# 忽略特定类型的临时文件
+*~
+
+# 忽略 CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# 忽略编译器警告和错误日志
+*.err
+*.warn
+
+# 忽略库文件
+*.lib
+*.a
+*.so
+*.dylib
+*.dll
+
+# 忽略文档生成的文件
+Doxyfile
+*.doxytag
+doc/html/
+doc/latex/
+
+# 忽略一些常见的配置文件
+config.ini
+config.json
+*.conf
+
+# 忽略测试生成的文件
+test_results/
+unit_tests/
+integration_tests/
+
+# 忽略特定平台的临时文件
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*.desktop
+*.lock
+
+# 忽略编译数据库文件
+compile_commands.json
+
+# 忽略 CMake 构建目录
+cmake-build-debug/
+cmake-build-release/
+
+# 忽略其他可能的构建目录
+build/
+bin/
+lib/
