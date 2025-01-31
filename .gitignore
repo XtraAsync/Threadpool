@@ -41,6 +41,9 @@ ipch/
 *.vsixexp
 *.scc
 
+# Visual Studio Code
+.vscode/
+
 # Xcode
 *.mode1v3
 *.mode2v3
